@@ -137,4 +137,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/TopDownEngine/ThirdParty/MoreMountains/MMTools/Demos/MMSceneLoading/MMSceneLoadingDemoSceneB.unity
     guid: 352d34cac2435634fb99618d19a3929c
+  - enabled: 1
+    path: Assets/BatallaAncestral/Scenes/Home.unity
+    guid: de156dd7bb999ca00b1e8388204b430e
+  - enabled: 1
+    path: Assets/BatallaAncestral/Scenes/Level1.unity
+    guid: 76dd5e6882745a82fbaca8494dc94878
+  - enabled: 1
+    path: Assets/BatallaAncestral/Scenes/Level2.unity
+    guid: 416e7861017d5807d8ad4da267bc8cb2
+  - enabled: 1
+    path: Assets/BatallaAncestral/Scenes/Level3.unity
+    guid: 2d222fd945d3c005b88c98cfe6e92fdd
+  - enabled: 1
+    path: Assets/BatallaAncestral/Scenes/Instrucciones.unity
+    guid: 5fb32d128070594c7b264664373714b5
+  - enabled: 1
+    path: Assets/BatallaAncestral/Scenes/Creditos.unity
+    guid: 5e5224662616f59ab8884f7aab8f3d69
   m_configObjects: {}

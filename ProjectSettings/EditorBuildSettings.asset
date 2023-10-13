@@ -143,16 +143,25 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/BatallaAncestral/Scenes/Level1.unity
     guid: 76dd5e6882745a82fbaca8494dc94878
-  - enabled: 1
-    path: Assets/BatallaAncestral/Scenes/Level2.unity
-    guid: 416e7861017d5807d8ad4da267bc8cb2
-  - enabled: 1
-    path: Assets/BatallaAncestral/Scenes/Level3.unity
-    guid: 2d222fd945d3c005b88c98cfe6e92fdd
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/BatallaAncestral/Scenes/Instrucciones.unity
     guid: 5fb32d128070594c7b264664373714b5
   - enabled: 1
     path: Assets/BatallaAncestral/Scenes/Creditos.unity
     guid: 5e5224662616f59ab8884f7aab8f3d69
+  - enabled: 1
+    path: Assets/BatallaAncestral/Scenes/ElegirNivel.unity
+    guid: 776e3031351ccf5478154d3a2de80506
+  - enabled: 1
+    path: Assets/BatallaAncestral/Scenes/Level2.unity
+    guid: 9c84a0de0ee623448a42b5b3b22ce714
+  - enabled: 1
+    path: Assets/BatallaAncestral/Scenes/Level3.unity
+    guid: b803b97a5e01ab44185f754f2ec595d2
   m_configObjects: {}

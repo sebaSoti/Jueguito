@@ -161,7 +161,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/BatallaAncestral/Scenes/Level2.unity
     guid: 9c84a0de0ee623448a42b5b3b22ce714
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/BatallaAncestral/Scenes/Level3.unity
-    guid: b803b97a5e01ab44185f754f2ec595d2
+    path: Assets/BatallaAncestral/Scenes/Ganaste.unity
+    guid: 5e3b10a1b5d6bb841b820d70b5286c1b
   m_configObjects: {}

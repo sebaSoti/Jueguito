@@ -635,6 +635,7 @@ Transform:
   m_Children:
   - {fileID: 557115702}
   - {fileID: 2080320398}
+  - {fileID: 582825371}
   - {fileID: 1468746743}
   m_Father: {fileID: 71771402}
   m_RootOrder: 3
@@ -4242,6 +4243,53 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 581ea2e7a3383fa4eac2d162354979b5, type: 3}
+--- !u!1 &582825370
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 582825371}
+  - component: {fileID: 582825372}
+  m_Layer: 0
+  m_Name: Ola 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &582825371
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 582825370}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 62382444}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &582825372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 582825370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6937778ea1a0b6c4e9a69c15635c0dc0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: []
+  tiempo_entre_olas: 0
+  PuedeAgregarButton: 0
 --- !u!4 &593646988 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4798570233257244, guid: 581ea2e7a3383fa4eac2d162354979b5,
@@ -20928,7 +20976,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 62382444}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1475545978
 GameObject:
@@ -25322,16 +25370,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   data:
   - tiempoSalida: 0
-    cantidad: 1
+    cantidad: 2
     prefab: {fileID: 4218822877724986151, guid: 7a99f864fbccb2144b6c2f662804114a,
       type: 3}
     ruta: {fileID: 623235581}
   - tiempoSalida: 10
-    cantidad: 1
+    cantidad: 3
     prefab: {fileID: 4218822877724986151, guid: 7a99f864fbccb2144b6c2f662804114a,
       type: 3}
     ruta: {fileID: 155801376}
-  tiempo_entre_olas: 0
+  tiempo_entre_olas: 50
   PuedeAgregarButton: 0
 --- !u!4 &2088307194 stripped
 Transform:

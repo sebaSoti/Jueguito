@@ -3986,7 +3986,7 @@ MonoBehaviour:
       type: 3}
     ruta: {fileID: 588714582}
   - tiempoSalida: 15
-    cantidad: 6
+    cantidad: 7
     prefab: {fileID: 6311937572946013165, guid: b90ab62ca2795e7429cf45cd545c1c08,
       type: 3}
     ruta: {fileID: 623235581}

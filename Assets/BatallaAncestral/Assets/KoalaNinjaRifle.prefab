@@ -862,7 +862,7 @@ ParticleSystem:
           m_PostInfinity: 2
           m_RotationOrder: 4
   EmissionModule:
-    enabled: 1
+    enabled: 0
     serializedVersion: 4
     rateOverTime:
       serializedVersion: 2
@@ -5047,6 +5047,7 @@ GameObject:
   - component: {fileID: 114137986743622244}
   - component: {fileID: 114345180357598506}
   - component: {fileID: 114251315345146356}
+  - component: {fileID: 8845216560213562458}
   m_Layer: 0
   m_Name: KoalaNinjaRifle
   m_TagString: Untagged
@@ -5086,10 +5087,10 @@ MonoBehaviour:
   WeaponName: 
   WeaponCurrentlyActive: 1
   InputAuthorized: 1
-  TriggerMode: 1
+  TriggerMode: 0
   DelayBeforeUse: 0
   DelayBeforeUseReleaseInterruption: 1
-  TimeBetweenUses: 1
+  TimeBetweenUses: 0.6
   TimeBetweenUsesReleaseInterruption: 1
   UseBurstMode: 0
   BurstLength: 3
@@ -5188,7 +5189,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba85f5b87cb8cf84f9e09dcca90cd372, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AimControl: 4
+  AimControl: 1
   AimControlActive: 1
   RotationMode: 0
   WeaponRotationSpeed: 0
@@ -5224,6 +5225,44 @@ MonoBehaviour:
   BelowThresholdSortingOrder: 1
   AboveThresholdSortingOrder: -1
   Sprite: {fileID: 212409535536248356}
+--- !u!114 &8845216560213562458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1490220044263310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 787adbe3232ded84a9544869399298f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetsMask:
+    serializedVersion: 2
+    m_Bits: 8192
+  ObstacleMask:
+    serializedVersion: 2
+    m_Bits: 256
+  ScanRadius: 8.83
+  LineOfFireBoxcastSize: {x: 0.1, y: 0.1}
+  DurationBetweenScans: 1
+  DetectionOriginOffset: {x: 0, y: 0, z: 0}
+  OnlyAcquireTargetsIfOwnerIsIdle: 0
+  RotationMode: 0
+  ApplyAutoAimAsLastDirection: 1
+  MoveCameraTarget: 1
+  CameraTargetDistance: 0.5
+  CameraTargetMaxDistance: 10
+  CameraTargetSpeed: 5
+  MoveCameraToCharacterIfNoTarget: 0
+  AimMarkerPrefab: {fileID: 0}
+  DestroyAimMarkerOnWeaponDestroy: 1
+  FirstTargetFoundFeedback: {fileID: 0}
+  NewTargetFoundFeedback: {fileID: 0}
+  NoMoreTargetsFeedback: {fileID: 0}
+  Target: {fileID: 0}
+  DrawDebugRadius: 1
+  OverlapMaximum: 10
 --- !u!1 &1806446063217534
 GameObject:
   m_ObjectHideFlags: 0
@@ -20520,7 +20559,7 @@ MonoBehaviour:
     - rid: 4
       type: {class: MMF_Sound, ns: MoreMountains.Feedbacks, asm: MoreMountains.Feedbacks.MMTools}
       data:
-        Active: 0
+        Active: 1
         UniqueID: 284576125
         Label: Sound
         ChannelMode: 0

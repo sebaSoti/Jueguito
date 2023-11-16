@@ -24,7 +24,7 @@ public class Ola : MonoBehaviour
     public bool PuedeAgregarButton;
     
     public Oleadas OleadasNivel { get => oleadas_nivel; set => oleadas_nivel = value; }
-
+    
 
     public void Start(){
         
@@ -89,3 +89,7 @@ public class Ola : MonoBehaviour
     }
 
 }
+
+
+
+

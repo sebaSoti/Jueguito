@@ -525,7 +525,7 @@ GameObject:
   m_Component:
   - component: {fileID: 52168762}
   - component: {fileID: 52168763}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Fondo (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -856,7 +856,7 @@ GameObject:
   m_Component:
   - component: {fileID: 93565672}
   - component: {fileID: 93565671}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Fondo (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1075,7 +1075,7 @@ GameObject:
   m_Component:
   - component: {fileID: 128477147}
   - component: {fileID: 128477148}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Fondo (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1546,7 +1546,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 209, y: 49}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &151204565
@@ -1973,7 +1973,7 @@ GameObject:
   m_Component:
   - component: {fileID: 222758883}
   - component: {fileID: 222758882}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: Grid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2827,7 +2827,7 @@ GameObject:
   m_Component:
   - component: {fileID: 363954554}
   - component: {fileID: 363954555}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Fondo (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3572,7 +3572,7 @@ GameObject:
   m_Component:
   - component: {fileID: 507549698}
   - component: {fileID: 507549699}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Fondo (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5967,7 +5967,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 710135696}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: All
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6216,7 +6216,7 @@ GameObject:
   m_Component:
   - component: {fileID: 731440380}
   - component: {fileID: 731440381}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Fondo (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6663,7 +6663,7 @@ GameObject:
   m_Component:
   - component: {fileID: 772494725}
   - component: {fileID: 772494726}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Fondo (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6819,8 +6819,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 961700441
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 1f0f4d1c8a443c24cbf12effe50238d3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -7062,7 +7062,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2154, y: 202}
+  m_AnchoredPosition: {x: 2264, y: 251}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &826493642
@@ -7482,7 +7482,7 @@ GameObject:
   m_Component:
   - component: {fileID: 881629448}
   - component: {fileID: 881629447}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Fondo (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7566,7 +7566,7 @@ GameObject:
   m_Component:
   - component: {fileID: 881934549}
   - component: {fileID: 881934550}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Fondo (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8758,7 +8758,7 @@ GameObject:
   - component: {fileID: 974943912}
   - component: {fileID: 974943914}
   - component: {fileID: 974943913}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13536,7 +13536,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1001523801}
   - component: {fileID: 1001523802}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Fondo (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14489,7 +14489,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1074656629}
   - component: {fileID: 1074656628}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Fondo (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14966,7 +14966,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1166677199}
   - component: {fileID: 1166677200}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Fondo (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15178,7 +15178,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1202846831}
   - component: {fileID: 1202846832}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Fondo (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15455,7 +15455,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 897, y: -953}
+  m_AnchoredPosition: {x: 890, y: -915}
   m_SizeDelta: {x: 96.83, y: 99.97}
   m_Pivot: {x: 0.5000013, y: 0.49999997}
 --- !u!114 &1232450140
@@ -15761,7 +15761,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1252621412}
   - component: {fileID: 1252621413}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Fondo (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16079,7 +16079,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1299502640}
   - component: {fileID: 1299502639}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Fondo (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16305,7 +16305,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1650, y: 582}
+  m_AnchoredPosition: {x: 1571, y: 624}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1353330084
@@ -18969,7 +18969,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1596121452}
   - component: {fileID: 1596121451}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Fondo (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19265,7 +19265,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1633832869}
   - component: {fileID: 1633832870}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Fondo (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19502,7 +19502,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1654447672}
   - component: {fileID: 1654447671}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Fondo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20728,7 +20728,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 67, y: 11}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1852907744
@@ -21889,7 +21889,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1966251647}
   - component: {fileID: 1966251648}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Fondo (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22367,7 +22367,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2046838548}
   - component: {fileID: 2046838547}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Fondo (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22769,7 +22769,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2102817425}
   - component: {fileID: 2102817424}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Fondo (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23010,7 +23010,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2137011418}
   - component: {fileID: 2137011419}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Fondo (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

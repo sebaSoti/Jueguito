@@ -1522,10 +1522,10 @@ MonoBehaviour:
   InputAuthorized: 1
   AnalogInput: 0
   ScriptDrivenInput: 0
-  WalkSpeed: 10
+  WalkSpeed: 5
   ShouldSetMovement: 1
   IdleThreshold: 0.05
-  Acceleration: 10
+  Acceleration: 3.2
   Deceleration: 100
   InterpolateMovementSpeed: 0
   WalkParticles:

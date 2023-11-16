@@ -26936,7 +26936,7 @@ MonoBehaviour:
     prefab: {fileID: 4218822877724986151, guid: 7a99f864fbccb2144b6c2f662804114a,
       type: 3}
     ruta: {fileID: 209067831}
-  tiempo_entre_olas: 55
+  tiempo_entre_olas: 60
   PuedeAgregarButton: 0
 --- !u!4 &2088307194 stripped
 Transform:

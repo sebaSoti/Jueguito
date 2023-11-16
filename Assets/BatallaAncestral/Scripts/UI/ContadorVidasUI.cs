@@ -15,7 +15,7 @@ public class ContadorVidasUI : MonoBehaviour
     void Start()
     {
         // Inicia el contador de vidas en 20
-        GameManager.Instance.CurrentLives = 20;
+        GameManager.Instance.CurrentLives = 5;
     }
 
     // Update is called once per frame

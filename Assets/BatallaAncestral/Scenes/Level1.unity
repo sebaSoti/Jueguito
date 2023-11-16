@@ -656,6 +656,7 @@ MonoBehaviour:
   olas:
   - {fileID: 557115703}
   - {fileID: 2080320399}
+  - {fileID: 2118289191}
   contenedor_grupos: {fileID: 1468746742}
 --- !u!4 &63787596 stripped
 Transform:
@@ -22660,7 +22661,7 @@ MonoBehaviour:
     prefab: {fileID: 4218822877724986151, guid: 7a99f864fbccb2144b6c2f662804114a,
       type: 3}
     ruta: {fileID: 623235581}
-  tiempo_entre_olas: 48
+  tiempo_entre_olas: 55
   PuedeAgregarButton: 0
 --- !u!4 &2088307194 stripped
 Transform:

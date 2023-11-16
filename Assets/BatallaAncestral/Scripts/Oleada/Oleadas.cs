@@ -37,7 +37,7 @@ public class Oleadas : MonoBehaviour
 
     public void DespacharOla(){
         Ola ola;
-        if(ola_actual < olas.Count)
+        if (ola_actual < olas.Count)
         {
             ola = olas[ola_actual];
             ola.EmpezarOla();
@@ -46,10 +46,11 @@ public class Oleadas : MonoBehaviour
             //Debug.Log("Ola "+ola_actual+"/"+olas.Count);
             MMGameEvent.Trigger("Actualizar");
         }
-        else{
+        else
+        {
             //Se termina la partida indicar que gano y mostrar ventana fin de nivel
             Debug.Log("Fin de oleadas ganaste");
-            MMSceneLoadingManager.LoadScene ("Ganaste");
+            MMSceneLoadingManager.LoadScene("Ganaste");
 
         }
 
@@ -64,3 +65,6 @@ public class Oleadas : MonoBehaviour
         return null;
     }*/
 }
+
+
+

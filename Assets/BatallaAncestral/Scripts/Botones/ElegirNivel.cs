@@ -8,7 +8,7 @@ public class ElegirNivel: MonoBehaviour
 {
     public void AbrirElegirNivel()
     {
-        MMSceneLoadingManager.LoadScene ("ElegirNivel");
+        MMSceneLoadingManager.LoadScene("ElegirNivel");
     }
 
 }

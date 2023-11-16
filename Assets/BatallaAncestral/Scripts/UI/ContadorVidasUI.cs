@@ -1,9 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using MoreMountains.TopDownEngine;
+using MoreMountains.Tools;
 using TMPro;
 using UnityEngine;
-using UnityEngine.SceneManagement;
+
 
 public class ContadorVidasUI : MonoBehaviour
 {
@@ -30,7 +31,7 @@ public class ContadorVidasUI : MonoBehaviour
             Debug.Log("Perdiste");
 
             // Carga la escena "ElegirNivel"
-            SceneManager.LoadScene("ElegirNivel");
+            MMSceneLoadingManager.LoadScene("ElegirNivel");
         }
     }
 }
